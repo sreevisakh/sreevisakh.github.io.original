@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Gems
+gems:             [jekyll-paginate]
+
+# Setup
+title:            an-else-view
+tagline:          'Sreevisakh'
+description:      'Sreevisakh'
+url:              http://sreevisakh.com
+baseurl:          /
+
+author:
+  name:           'Sreevisakh A'
+  url:            http://sreevisakh.com
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/sreevisakh/
