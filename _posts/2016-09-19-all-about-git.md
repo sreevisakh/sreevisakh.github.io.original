@@ -24,7 +24,7 @@ sudo apt-get install git
 this will install git software in your system. Now you can run all git commands.
 ## How to use.
 
-Let's start with creating a repo. You can go to github and [create a new repo](https://github.com.new).  you can choose a name. and after creating github will git you a url which will be where your files will reside and all the version control activities are done through that endpoint.
+Let's start with creating a repo. You can go to github and [create a new repo](https://github.com/new).  you can choose a name. and after creating github will git you a url which will be where your files will reside and all the version control activities are done through that endpoint.
 
 ### Cloning
 So we have a remote location to store our files. Now lets make a copy if that in you system. So that we can change files and save. Making a copy of an exising repo in to your system is called `cloning`. Command for cloing looks like this.
