@@ -74,10 +74,10 @@ if you do git status again you can see that the added file is under a different 
 git checkout -- otherfile
 {% endhighlight %}
 
-this will reset the changes did to that file. After adding all the files you want. You have to commit this changes.  Commit is basically taking all these changes that you added and giving it a unique id and message so that others can understand why you made those changes. These messages that we give has to be meaningfull for others to understand.
+this will reset the changes did to that file. After adding all the files you want. You have to commit this changes.  Commit is basically taking all these changes that you added and giving it a unique id and message so that others can understand why you made those changes. These messages that we give has to be meaningful for others to understand.
 
 {% highlight bash %}
-git commit -m "a good meaningfull message about what you did in this commit"
+git commit -m "a good meaningful message about what you did in this commit"
 {% endhighlight %}
 
 You can go ahead and make other changes, add & commit them. Please don't commit everything in one single commit. Make small independent changes into commits. Becuase we need them later.
