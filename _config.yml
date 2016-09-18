@@ -7,14 +7,14 @@ permalink:        pretty
 relative_permalinks: false
 
 # Gems
-gems:             [jekyll-paginate]
+gems:             [jekyll-paginate,jekyll-sitemap]
 
 # Setup
 title:            an-else-view
 tagline:          'Sreevisakh'
 description:      'Sreevisakh'
-url:              http://sreevisakh.com
-baseurl:          /
+url:              http://sreevisakh.github.io
+baseurl:          
 
 author:
   name:           'Sreevisakh A'
