@@ -19,15 +19,15 @@ jekyll serve
 the above commands will install jekyll in your system together with bundler, helps you create a new blog. and lets you run it. Once you do serve you can open the browser and see you blog
 
 if you ran into errors on your console like I got into, and if it says about missing packages install them using gem
-eg : gem install redcarpet
+eg : `gem install redcarpet`
 
 ### Make it look good with themes
-You can select a theme for your blog as well there a lot of theme out there in the internet select from one of them. You can follow the instructions on how to install them. I am using Hyde theme. which only need to copy the file to the respective folder.
+You can select a theme for your blog as well.  There are a lot of themes out there in the internet select from among them. You can follow the instructions on how to install them. I am using Hyde theme, which only need to copy the file to the respective folders.
 
 ### About Jekyll Directory Structure
 You will see multiple folders in you blog directory, folders you want to checkout are
 
- - _posts : which will have you posts name as yyyy-mm-dd-name.md
+ - _posts : which will have your posts with `yyyy-mm-dd-name.md` as filename
  - _drafts : incomplete posts
  - _layouts : structure of your page, go through to find the structure of your pages
  - _includes : various components of your blog.
@@ -36,10 +36,10 @@ You will see multiple folders in you blog directory, folders you want to checkou
 there are couple of files as well
 
  - about.md this is your about file. you can change it to your details
- - _config.yml this is your configuration for jekyll, you can setup variables, which you can use throughout the blog.
+ - _config.yml this is your configuration for jekyll, you can setup variables,dependencies,site details, which you can use throughout the blog.
 
 ### First post
-  Create your first post by adding a file to the `_posts` folder. Add the following to the starting to recognise it for the jekyll
+  Create your first post by adding a file to the `_posts` folder following the naming convention `yyyy-mm-dd-name.md`. Add the following to the starting to recognise it as a post for the jekyll
 
 <pre>
  ---
