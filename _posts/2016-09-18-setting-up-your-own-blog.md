@@ -55,6 +55,6 @@ if your are running `jekyll serve --watch`  you can refresh and see the changes 
 
   There are two ways you can do this.  You can make this part of your existing repo.  For Example, you have a repo `my-awesome-project` and you want to write docs for this project and host it in my-awesome-project/docs. All you have to do is push all these files into a branch 'gh-pages', Github will automatically detect jekyll and it will show you the blog. You can configure the rest in GitHub Settings page for your repo.
 
-  But what if we need to host our personal blog not docs. For that you have to (create a new repo)[https://github.com/new] called `yourname.github.io` and push all files to it and access your blog using https://yourname.github.io, again change configuration in Github Repo Settings page.
+  But what if we need to host our personal blog not docs. For that you have to [create a new repo](https://github.com/new) called `yourname.github.io` and push all files to it and access your blog using [https://yourname.github.io], again change configuration in Github Repo Settings page.
 
   Thats it!, you hosted your blog. Do some changes and improve them by adding sitemap, adding tags, give a proper url for your blog, which will help improve search experience for your pages and help it reach more users.
