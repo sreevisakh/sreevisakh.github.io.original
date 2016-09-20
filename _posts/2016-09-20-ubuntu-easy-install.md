@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ubuntu Easy Install
+comments : true
 ---
 
 I am using ubuntu for a some time now. I still have my Ubuntu 10.04 CD sent by
@@ -8,7 +9,7 @@ ubuntu team for free. Every April & November we get a new version of Ubuntu.  I 
 a fresh install everytime which means loosing application that are installed. Here is an easy way to install
 all your favourite apps back.
 
-### This Install script
+### The Install script
 
 You can make a list of all the softwares you want to install into a text file. If its an application
 available within ubuntu you can add
@@ -32,16 +33,16 @@ apm install eslint
 {% endhighlight %}
 ### Saving the script
 
-You can save this file and execute it every timw you install ubuntu. But keeping a file, Downloading it everytime, the chaning its permission and running it is difficult so here is another way. Save the file, Push to one of your git repo. In github you can get it
-raw url which is a url to the actual file. When you access that url you will get the file. No again that is a long url, How will you remember it? [bit.ly](https://bit.ly) to our rescue. Bit.ly is a url shortening service. If you give a big url it can give you a small url. We can even give our own url. So we can convert our big url into something meaningfull url.
+You can save this file and execute it every time you install ubuntu. But keeping a file, Downloading it everytime, then changing its permission and running, it is difficult. So here is another way. Save the file, Push to one of your git repo. In github you can get its
+raw url which is a url to the actual file. When you access that url you will get the file. Again that is a long url, How will you remember it? [bit.ly](https://bit.ly) to your rescue. Bit.ly is a url shortening service. If you give a big url it can give you a small url. We can even customise the url if you login. So we can convert our big url into something meaningful.
 
 ### Using the Script
 
-Now our list is saved in a url. How will you use that? After installing ubunturun the following command.
+Now our list is saved in a url. How will you use that? After installing ubuntu run the following command.
 {% highlight bash %}
 curl -L your-url | bash -
 {% endhighlight %}
-This will download the file and execute it in your system. It may tae sometime depending on your internet & system. But you dont have to
-be there. Let it install. [-L](https://curl.haxx.se/docs/manpage.html#-L) will help in redirecting our call from bit.ly to gihub. Checkout a similar script file I use for installation
+This will download the file and execute it in your system. It may take sometime depending on your internet & system. But you don't have to
+be there. Let it install. [-L](https://curl.haxx.se/docs/manpage.html#-L) in the command will help in redirecting our call from bit.ly to gihub. Checkout a similar script file I use for installation
 
 > [https://bit.ly/sv-install-ubuntu](https://bit.ly/sv-install-ubuntu)
