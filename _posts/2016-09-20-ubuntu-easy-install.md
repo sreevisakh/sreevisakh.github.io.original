@@ -4,7 +4,7 @@ title: Ubuntu Easy Install
 comments : true
 ---
 
-I am using ubuntu for a some time now. I still have my Ubuntu 10.04 CD sent by
+I am using ubuntu for some time now. I still have my Ubuntu 10.04 CD sent by
 ubuntu team for free. Every April & November we get a new version of Ubuntu.  I prefer to do
 a fresh install everytime which means loosing application that are installed. Here is an easy way to install
 all your favourite apps back.
