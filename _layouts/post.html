@@ -11,12 +11,28 @@ layout: default
     "@context": "http://schema.org/",
     "@type": "Article",
     "name": "{{page.title}}",
-    "author": "Sreevisakh",
+    "author": {
+        "@type" : "Person",
+        "name": "Sreevisakh"
+    },
     "datePublished" :"{{page.date}}",
     "headline":"{{page.title}}",
-    "publisher":"an-else-view",
-    "logo":"{{site.url}}/public/favicon.ico",
-    "image":"{{site.url}}/public/favicon.ico",
+    "publisher":{
+        "@type":"Organisation",
+        "name":"an-else-view",
+        "logo":{
+            "@type":"ImageObject",
+            "url":"https://sreevisakh.github.io/public/logo.png",
+            "width":256,
+            "height":256
+        }
+    }"an-else-view",
+    "image":{
+        "@type":"ImageObject",
+        "url":"https://sreevisakh.github.io/public/logo.png",
+        "width":256,
+        "height":256
+    }
     "dateModified":"{{page.last-modified-date}}",
     "mainEntityOfPage": {
          "@type": "WebPage",
