@@ -9,9 +9,9 @@ title: About
 
 You can find me at
 
-  - [github.com/sreevisakh](http://github.com)
-  - [facebook.com/sreevisakh](facebook.com/sreevisakh)
-  - [mail@sreeviskah.com](mail@sreeviskah.com)
+  - [github.com/sreevisakh](https://github.com/sreevisakh)
+  - [facebook.com/sreevisakh](https://facebook.com/sreevisakh)
+  - [mail@sreeviskah.com](mailto:mail@sreeviskah.com)
 
 ### Why?
 
