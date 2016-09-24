@@ -9,7 +9,7 @@ system application. In ubuntu we will not be able to use those ports for our app
 One way to use them is to run it as root user with the help of `sudo`. But which will open our application to the world
 with root access to the server which will cause serious security issue.
 
-## NonRootPortBinding
+### Non Root Port Binding
 
 This is another way to bind our application to ports less than 1024 without `sudo`.  execute the following command for this.
 
