@@ -58,3 +58,9 @@ if your are running `jekyll serve --watch`  you can refresh and see the changes 
   But what if we need to host our personal blog not docs. For that you have to [create a new repo](https://github.com/new) called `yourname.github.io` and push all files to it and access your blog using [https://yourname.github.io], again change configuration in Github Repo Settings page.
 
   Thats it!, you hosted your blog. Do some changes and improve them by adding sitemap, adding tags, give a proper url for your blog, which will help improve search experience for your pages and help it reach more users.
+
+### Errors
+
+  `Error:  uninitialized constant Rails`
+
+  I got the above error when i added gem dependency in the gems section of _config.yml, but it was not being used any where else. Remove any unused gems from _config.yml
