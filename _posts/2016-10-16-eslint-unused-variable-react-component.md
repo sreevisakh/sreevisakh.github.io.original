@@ -8,19 +8,13 @@ comments : true
 
 If you are working with react and uses eslint for linting your code, you may get the following error
 
-{% highlight js %}
-
+```js
 import Nav from './nav'
-
 ....
-
 render(){	
-
 <Nav>
-
 }
-
-{% endhighlight %}
+```
 
 The above code will throw unused variable error eventhough it is used in render.
 
