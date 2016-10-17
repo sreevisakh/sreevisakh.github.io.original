@@ -30,7 +30,11 @@ Every dongle comes with its software. It will be normally available as a CD driv
 
 If you are not seeing the CD drive, Check for a device with the name `/dev/sr0`
 
->  I have faced with problem multiple times, This CD drive some how gets corrupted, and will not be able to access that
+>  ```sh
+>  ls /dev/sr0
+>  ```
+>
+>  I have faced with problem multiple times, This CD drive some how gets corrupted, and will not be able to access that 
 
 it is there, make a copy of it into your computer
 
