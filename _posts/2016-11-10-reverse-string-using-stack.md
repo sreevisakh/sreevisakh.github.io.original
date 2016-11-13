@@ -4,9 +4,6 @@ title: Reverse String using Stack | Data Structures in Js
 comments : true
 ---
 
-## Reverse String using Stack | Data Structures in Js 
-
-
 ```js
 const Stack = require('./Stack.class');
 

@@ -3,8 +3,6 @@ layout: post
 title: Algorithms in Js | Sum Of Pair
 comments : true
 ---
-# Sum of Pair
-
 Find the pair of elements which will add upto the given sum
 
 

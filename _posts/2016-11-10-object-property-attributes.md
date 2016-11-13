@@ -6,7 +6,7 @@ comments : true
 
 # Object Property Attributes in Js
 
-| **attribute name** | meaning                                  |
+| attribute name | meaning                                  |
 | ------------------ | ---------------------------------------- |
 | **value**          | The property's value.                    |
 | **writable**       | `true` or `false`. Whether the property's value can be written to. (For example, `o["p"] = 1`) |

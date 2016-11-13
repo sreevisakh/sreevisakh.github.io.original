@@ -3,7 +3,6 @@ layout: post
 title: Algorithms in JS | Single Linked List
 comments : true
 ---
-# Single Linked List
 
 ```js
 class Node{
