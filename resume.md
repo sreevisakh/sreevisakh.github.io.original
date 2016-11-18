@@ -1,6 +1,9 @@
+---
+layout: page
+title: Resume
+---
+
 # Fullstack Javascript Developer
-
-
 
 I have 3 year experience in developing applications with javascript. I have worked with react, angular, knockout, jquery, and nodejs
 
