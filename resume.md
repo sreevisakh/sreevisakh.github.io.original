@@ -7,8 +7,8 @@ title: Resume
 
 I have 3 year experience in developing applications with javascript. I have worked with react, angular, knockout, jquery, and nodejs
 
-## Work Experience
-
+### Work Experience
+---
 
 
 #### Arvind Limited -  *2014- 2016*
@@ -17,7 +17,7 @@ I have 3 year experience in developing applications with javascript. I have work
 
 
 
-##  Projects
+###  Projects
 
 #### Nnnow.com
 
@@ -37,7 +37,7 @@ A web application builts with Knockout which helps in tking measurements of cust
 
 
 
-## Education
+### Education
 
 #### M. Tech. (2012 - 2014)
 
@@ -49,7 +49,7 @@ Computer Science - College Of Engineering, Trikkarippur ( CUSAT )
 
 
 
-## Github Projects
+### Github Projects
 
 #### node-axel (*Js*)
 
