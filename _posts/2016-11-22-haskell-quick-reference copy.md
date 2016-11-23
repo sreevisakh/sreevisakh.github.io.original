@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Haskel Quick Reference
+title: Haskell Quick Reference
 comments : true
 ---
 
