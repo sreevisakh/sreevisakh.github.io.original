@@ -1,5 +1,5 @@
 ---
-title: 'Setting static ip address ofr raspberry pi'
+title: 'Setting static ip address for raspberry pi'
 layout: post
 tags:
   - pi
@@ -8,7 +8,6 @@ tags:
   - ' ssh'
 category: 'Raspberry Pi'
 ---
-# Setting Static Ip for raspberry pi
 
   When you add raspberry pi to your network it is essential that you should be able to ssh in to the pi.  This can be difficult if the ip address changes everytime pi reboots.  One way to solve the problem is setting a static ip address for your pi.
 
