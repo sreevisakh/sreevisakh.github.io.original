@@ -5,11 +5,19 @@ title: Resume
 
 # Fullstack Javascript Developer
 
-I have 3 year experience in developing applications with javascript. I have worked with react, angular, knockout, jquery, and nodejs
+I have 4 year experience in developing applications with javascript. I have worked with react, angular, knockout, jquery, and nodejs
 
 
 
 ### Work Experience
+
+#### Amazon India -  *2016 - *
+
+*Web Development Engineer* - Working with advertising team in amazon
+
+
+
+
 #### Arvind Limited -  *2014- 2016*
 
 *Senior Software Development Engineer* - I have worked as senior software development engineer for Jun 2014 - Oct 2016. Worked with NNNOW.com & Creyate.com
