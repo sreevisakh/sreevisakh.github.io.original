@@ -12,12 +12,7 @@ for example:
 ```json
 {
   "script":{
-    "postinstall" : 'webapck --config=webpack.production.config.js'
+    "postinstall" : "webapck --config=webpack.production.config.js"
   }
 }
 ```
-
-
-
-
-
