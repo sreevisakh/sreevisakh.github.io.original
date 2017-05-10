@@ -8,11 +8,16 @@ module Jekyll
       @name = 'index.html'
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'amp.html')
-      self.data['body']          = post.content
-      self.data['title']         = post.data['title']
-      self.data['date']          = post.data['date']
-      self.data['author']        = post.data['author']
-      self.data['category']      = post.data['category']
+      self.content               = post.content
+      self.data['body']          = (Liquid::Template.parse post.content).render site.site_payload
+
+      # Merge all data from post so that keys from self.data have higher priority
+      self.data = post.data.merge(self.data)
+
+      # Remove non needed keys from data
+      # Excerpt will cause an error if kept
+      self.data.delete('excerpt')
+
       self.data['canonical_url'] = post.url
     end
   end
@@ -22,10 +27,8 @@ module Jekyll
     def generate(site)
       dir = site.config['ampdir'] || 'amp'
       site.posts.docs.each do |post|
-        index = AmpPost.new(site, site.source, File.join(dir, post.id), post)
-        index.render(site.layouts, site.site_payload)
-        index.write(site.dest)
-        site.pages << index
+        next if post.data['skip_amp'] == true
+        site.pages << AmpPost.new(site, site.source, File.join(dir, post.id), post)
       end
     end
   end
