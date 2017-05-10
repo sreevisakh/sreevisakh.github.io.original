@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <link href="http://gmpg.org/xfn/11" rel="profile" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="content-type" content="text/html" />
 
   <meta name="keywords" content="an-else-view,sreevisakh,ubuntu,git,node,js,angular" />
   <meta name="description" content="A Web Developer's usual blog, talks about javascript" />
@@ -19,7 +19,6 @@
     {% if page.title == "Home" %}{{ site.title }} | {{ site.tagline }} {% else %}{{ page.title }} | {{ site.title }} | {{ site.tagline }} {% endif %}
 
   </title>
-  {{page}}
   {% if page.path contains '_posts' %}
     <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
