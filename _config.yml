@@ -13,8 +13,8 @@ gems:             [jekyll-paginate,jekyll-sitemap,nokogiri,fastimage,amp-jekyll]
 title:            an-else-view
 tagline:          'Sreevisakh'
 description:      'Sreevisakh'
-url:              http://sreevisakh.github.io
-baseurl:          ''
+url:              ''
+baseurl:          http://sreevisakh.github.io
 
 author:
   name:           'Sreevisakh A'
