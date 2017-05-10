@@ -2,6 +2,7 @@
 layout: post
 title: "Recommended Way of adding multiple classes in css modules"
 date: "2017-05-09 00:31:41 +0530"
+category : 'javascript'
 ---
 
 When using css modules to import css into your js components, you can follow the following ways to add

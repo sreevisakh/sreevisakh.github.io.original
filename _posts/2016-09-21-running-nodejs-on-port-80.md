@@ -2,6 +2,7 @@
 layout: post
 title: Running nodejs on port 80
 comments : true
+category : 'javascript'
 ---
 
 If you are familiar with network ports, ports below 1024 are reserved port for

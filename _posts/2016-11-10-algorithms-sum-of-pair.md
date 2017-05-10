@@ -2,6 +2,7 @@
 layout: post
 title: Algorithms in Js | Sum Of Pair
 comments : true
+category : 'algorithms'
 ---
 Find the pair of elements which will add upto the given sum
 
@@ -14,7 +15,7 @@ function SumOfPair(array,result){
     })
     var start = 0;
     var end = array.length-1;   
-    
+
     for(start = 0;start < array.length; start++ ){
         var sum = array[start]+ array[end];
         if(sum == result){
@@ -31,4 +32,3 @@ function SumOfPair(array,result){
 
 console.log(SumOfPair([1,2,3,4,5,6,7,8],11));
 ```
-

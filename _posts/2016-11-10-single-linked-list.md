@@ -2,6 +2,7 @@
 layout: post
 title: Algorithms in JS | Single Linked List
 comments : true
+category : 'algorithms'
 ---
 
 ```js
@@ -16,7 +17,7 @@ class SingleLinkedList{
   constructor(data){
     this.head = new Node(data);
   }
-  
+
   insertAtEnd(data){
     var node = new Node(data);
     var tmp = this.head;
@@ -25,13 +26,13 @@ class SingleLinkedList{
     }
     tmp.next = node;
   }
-  
+
   insertAtStart(data){
     var node = new Node(data);
     node.next = this.head;
     this.head = node;
   }
-  
+
   insertAfterElement(data,after){
     var node = new Node(data);
     var tmp = this.head;
@@ -39,9 +40,9 @@ class SingleLinkedList{
       tmp = tmp.next;
     }
     if(tmp.data === after){
-      
+
     }
-    
+
   }
   print(){
    var tmp = this.head;
@@ -53,7 +54,7 @@ class SingleLinkedList{
     string+='null';
     console.log(string);
   }
-   
+
 }
 
 var sl = new SingleLinkedList(1);
@@ -62,4 +63,3 @@ sl.print();
 
 exports.SingleLinkedList;
 ```
-

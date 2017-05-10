@@ -2,6 +2,7 @@
 layout: post
 title: Object Property Attributes
 comments : true
+category : 'javascript'
 ---
 
 

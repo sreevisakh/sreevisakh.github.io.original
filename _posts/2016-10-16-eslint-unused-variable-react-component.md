@@ -2,6 +2,7 @@
 layout: post
 title: Unused variable  eslint error in react component
 comments : true
+category : 'javascript'
 ---
 
 ### Problem
@@ -11,7 +12,7 @@ If you are working with react and uses eslint for linting your code, you may get
 ```js
 import Nav from './nav'
 ....
-render(){	
+render(){
 <Nav>
 }
 ```
@@ -33,5 +34,3 @@ Create a .eslintrc.json file, if you dont have already, add the following lines
 	}
 }
 ```
-
-

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ubuntu Easy Install
-comments : true
+comments : true,
+category : 'ubuntu
 ---
 
 I am using ubuntu for some time now. I still have my Ubuntu 10.04 CD sent by

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bumping Package Versions
+category : 'webpack'
 ---
 
 If you are using webpack for build you can a the following plugin to increase the version in your package.json file
@@ -26,4 +27,3 @@ function deploy(){
 ```
 
 Above piece of code will add your `package.json` and create commit & tag and push them your repo.
-

@@ -2,6 +2,7 @@
 layout: post
 title: Haskell Quick Reference
 comments : true
+category : 'haskell'
 ---
 
 
@@ -25,10 +26,10 @@ True		- Bool
 
 ```haskell
 expression in body
-let square x = x*x in square 3 -> 9 
+let square x = x*x in square 3 -> 9
 ```
 
-##### Map 
+##### Map
 
 ```haskell
 map (+1) [1..5] -> [2,3,4,5,6]
@@ -36,7 +37,7 @@ map (+1) [1..5] -> [2,3,4,5,6]
 map toUpper "chris" -> "CHRIS"
 ```
 
-map accespt a function (here it is +1,toUpper) and list returns a new list 
+map accespt a function (here it is +1,toUpper) and list returns a new list
 
 ##### Filter
 
@@ -72,8 +73,3 @@ let abc@(a,b,c) = (10,20,30) in (abc,a,b,c) -> ((10,20,30),20,30)
 ```haskell
 "Steve Buscemi" !! 6  -> 'B'  
 ```
-
-
-
-
-

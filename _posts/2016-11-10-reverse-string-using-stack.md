@@ -2,6 +2,7 @@
 layout: post
 title: Reverse String using Stack | Data Structures in Js
 comments : true
+category : 'algorithms'
 ---
 
 ```js
@@ -24,4 +25,3 @@ function reverseString(string){
     return reversedString;
 }
 ```
-

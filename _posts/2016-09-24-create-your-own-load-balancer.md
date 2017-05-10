@@ -2,6 +2,7 @@
 layout: post
 title: Create your own load balancer
 comments : true
+category : 'server'
 ---
 
 If you have a server running for you apps. It is always better to run a backup server incase something happended to you main server.

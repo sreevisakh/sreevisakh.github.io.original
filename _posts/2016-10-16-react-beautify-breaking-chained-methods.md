@@ -2,6 +2,7 @@
 layout: post
 title: react-beautify breaking chained methods
 comments : true
+category : 'javascript'
 ---
 
 ### Problem
@@ -28,5 +29,3 @@ Create a .jsbeautifyrc file, if you dont have already, add the following lines
     "methodchain": "chain"
 }
 ```
-
-

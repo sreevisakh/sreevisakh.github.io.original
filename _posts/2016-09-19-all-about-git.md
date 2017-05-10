@@ -1,6 +1,7 @@
 ---
 layout: post
 title: All about Git
+category : 'git'
 ---
 
 Version control is a must for any developer. What is version control? Basically its a system that keep track of changes in files. For Example you and your colleagues are working on a project. You will be writing new functionalities, modifying existing code and if it all get saved to some common place, what are the chances that one's changes will not be overwritten by others.  You changed couple of file to test a new funcitonality but you didn't like you have to revert your changes. All these are difficult with normal methods.  There comes version control.

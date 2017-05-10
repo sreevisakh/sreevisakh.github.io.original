@@ -2,6 +2,7 @@
 layout : post
 title : Install 4G dongle in ubuntu
 comments : true
+category : 'ubuntu'
 ---
 
 ### Problem
@@ -34,7 +35,7 @@ If you are not seeing the CD drive, Check for a device with the name `/dev/sr0`
 >  ls /dev/sr0
 >  ```
 >
->  I have faced with problem multiple times, This CD drive some how gets corrupted, and will not be able to access that 
+>  I have faced with problem multiple times, This CD drive some how gets corrupted, and will not be able to access that
 
 it is there, make a copy of it into your computer
 
@@ -58,7 +59,7 @@ exuecte install_linux
 
 
 
-it will open a small terminal, type yes and it will install the software. 
+it will open a small terminal, type yes and it will install the software.
 
 > if it throws error, install build-essentials
 >
@@ -66,17 +67,4 @@ it will open a small terminal, type yes and it will install the software.
 > sudo apt install build-essentials
 > ```
 >
-> 
-
-
-
-
-
-
-
-
-
-
-
-
-
+>

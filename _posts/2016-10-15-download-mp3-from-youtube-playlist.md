@@ -2,6 +2,7 @@
 layout: post
 title: Download MP3 from youtube playlist
 comments : true
+category : 'ubuntu'
 
 ---
 

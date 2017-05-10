@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Install webpack app on heroku
+category : 'webpack'
 ---
 
 Heroku doesn't support a webpack buitpack by default. So you normal nodejs build wont build you code. Here is a trick to run youcr build script in heroku deploy
