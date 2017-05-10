@@ -6,7 +6,7 @@ category : 'webpack'
 
 If you are using webpack for build you can a the following plugin to increase the version in your package.json file
 
-https://www.npmjs.com/package/bump-webpack-plugin
+[https://www.npmjs.com/package/bump-webpack-plugin](https://www.npmjs.com/package/bump-webpack-plugin)
 
 
 

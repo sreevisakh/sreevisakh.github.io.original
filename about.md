@@ -11,7 +11,7 @@ You can find me at
 
   - [github.com/sreevisakh](https://github.com/sreevisakh)
   - [facebook.com/sreevisakh](https://facebook.com/sreevisakh)
-  - [mail@sreeviskah.com](mailto:mail@sreeviskah.com)
+  - [mail@sreevisakh.com](mailto:mail@sreevisahk.com)
 
 ### Why?
 
