@@ -1,7 +1,18 @@
 ---
 layout: default
 ---
-
+<div class="all-articles">
+  <h1>Recommended Posts </h1>
+  <ul>
+    {% for post in site.posts %}
+      <li style="list-style:none all-posts">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>

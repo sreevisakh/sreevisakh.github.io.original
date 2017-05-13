@@ -7,7 +7,7 @@ permalink:        pretty
 relative_permalinks: false
 
 # Gems
-gems:             [jekyll-paginate,jekyll-sitemap,nokogiri,fastimage,amp-jekyll]
+gems:             [jekyll-paginate,jekyll-sitemap,nokogiri,fastimage]
 
 # Setup
 title:            an-else-view
