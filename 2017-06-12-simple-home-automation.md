@@ -18,7 +18,7 @@ Relay have two sides. One Side we will connect the Live wire. and the other Side
 
 ## Raspberry Pi
 Rapsberry Pi have pins on the side of it.  Each pin have a number to identify and each of them have a purpose. The pi side of relay has to be powered from the Pi. for this purpose they provide
-two pins VCC & GND, in Pi pin diagram you can see these pins. Connect them to the Pi,  Now to control the relay we need an input wire. Connect any of the GPIO pin to the third pin. Now we can control the Relay from PI
+two pins VCC & GND, in Pi pin diagram you can see these pins. Connect them to the Pi,  Now to control the relay we need an input wire. Connect any of the GPIO pin to the third pin. Refer the [pin diagram](https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/) of your pi for this. Now we can control the Relay from PI
 
 These GPIO ports can be controlled by program running in the Pi. So we can send either HIGH or LOW into the INPUT pin of relay through these programs.
 
@@ -27,7 +27,7 @@ Now Identify the live wire in the connection to your device. and connect them to
 ## Programming Pi
 
 Pi can be controlled by running programs inside it.  Default they have libraries to do this.
-following is a simple versin using python.
+following is a simple versin using python. SSH into you pi and add the code to a file and execute.
 
 ```python
 #!/usr/bin/python
@@ -50,6 +50,29 @@ GPIO.output(port, 1)
 Remeber we have connected the VCC, GND, and another line to GPIO.  So the above code will control the GPIO port.
 
 When you write a 1 to the port. GPIO will enable the port and Relay will allow current to flow & your device will Turn on and If you write a 0 it will turn off the relay opening the circuit and your device will turn off.
+
+
+## Controlling android
+
+You can expose the above functions with a server & apis. Which you can call from yu android device.  Task Automation Apps will help you send HTTP Rest calls to the PI to control them.
+
+## Controlling with Iphone
+
+Apple have homekit which can be used to controlling home accessories.  Apple devices will detect these devices automatically. To mak our device a homekit supported device.  We have to run a program inside pi and configure it according. HAP is used by apple for this communication.. You can see sample code [here](https://github.com/sreevisakh/HAP-NodeJS).
+
+After Cloing the repo and running Core.js you Iphone will detect you devices. and then you can control them with siri or through Control Center.
+
+
+## Detetcing your presence in home.
+
+TBD
+
+## Learning when you will reach home 
+
+TBD
+
+
+
 
 
 
