@@ -32,12 +32,25 @@ following is a simple versin using python.
 ```python
 #!/usr/bin/python
 
+#import GPIO library
 import RPi.GPIO as GPIO
 
+# set GPIO mode to BCM
 GPIO.setmode(GPIO.BCM)
+
+# here 23 is  GPIO23 port in the PI where I connected the input wire from relay
+# change it which ever port you used
+# since we are gonna send data to relay set it to output mode 
 GPIO.setup(23, GPIO.OUT)
+
+# GPIO port work in Binary mode. so set either 1 or 0 to control it.
 GPIO.output(port, 1)
 ```
 
 Remeber we have connected the VCC, GND, and another line to GPIO.  So the above code will control the GPIO port.
+
+When you write a 1 to the port. GPIO will enable the port and Relay will allow current to flow & your device will Turn on and If you write a 0 it will turn off the relay opening the circuit and your device will turn off.
+
+
+
 
