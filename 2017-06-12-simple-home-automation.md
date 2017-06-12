@@ -3,9 +3,17 @@ This DIY project to automate a light & fan using raspberry pi.
 
 ## Things Required
 
-1. Raspberry Pi Any Model will be fine
-2. 220v - 5v Relay
-3. Jumper Cables
+1. [Raspberry Pi Any Model will be fine (3B preferd for Wifi Access)](https://www.amazon.in/gp/product/B01CD5VC92/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01CD5VC92&linkCode=as2&tag=sreevisakh-21&linkId=f7c76ef2d3b97c9ed6f68c51c6271f24)
+	
+2. [220v - 5v Relay](https://www.amazon.in/gp/product/B01C2IG1GY/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01C2IG1GY&linkCode=as2&tag=sreevisakh-21&linkId=b96f8d4dc2f4d129047bb7b3d998ca6f")
+
+3. [Jumper Cables](https://www.amazon.in/gp/product/B01H5C3IIG/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01H5C3IIG&linkCode=as2&tag=sreevisakh-21&linkId=2e6475f0fd9c3b4cc79d524abbc2f522)
+
+### Optional
+
+4. [Power Supply For Pi](https://www.amazon.in/gp/product/B01BOOU7SU/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01BOOU7SU&linkCode=as2&tag=sreevisakh-21&linkId=4e79df25ffac052b991a874b0a261790)
+
+5. [Pi Case](https://www.amazon.in/gp/product/B01D4WM9JA/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01D4WM9JA&linkCode=as2&tag=sreevisakh-21&linkId=fee89d7bc86ac31d02891448b8aeeb73)
 
 ## Connection to Light & Fan
 
