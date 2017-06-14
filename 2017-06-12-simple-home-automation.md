@@ -78,10 +78,3 @@ TBD
 ## Learning when you will reach home 
 
 TBD
-
-
-
-
-
-
-
