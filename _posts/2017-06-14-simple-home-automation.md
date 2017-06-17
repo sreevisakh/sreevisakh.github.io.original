@@ -26,7 +26,7 @@ This is a DIY project to automate a light & fan using raspberry pi.
 
 ## Some Basics
 
-Any Electrical Device that work with AC will have two wires going into it. One of them is called live & the other in neutral. To control the current flow to a device, a switch is connected in middle of the live so when the switch is off, Circuit is open and current won't flow through the device. We are going to do the same with the relay.  
+Any Electrical Device that work with AC will have two wires connected to it. One of them is called live & the other in neutral. To control the current flow to a device, a switch is connected in middle of the live so when the switch is off, Circuit is open and current won't flow through the device. We are going to do the same with the relay.  
 
 ## Relay
 Relay will help in controlling 220v Live wire with help of 5v. Basically Our Pi works with 5v so it can manage 220v line with the help of a Relay.
