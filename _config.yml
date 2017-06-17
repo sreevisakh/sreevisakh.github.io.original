@@ -11,14 +11,14 @@ gems:             [jekyll-paginate,jekyll-sitemap,nokogiri,fastimage]
 
 # Setup
 title:            an-else-view
-tagline:          'Sreevisakh'
-description:      'Sreevisakh'
+tagline:          Sreevisakh
+description:      Web developer's blog
 url:              https://sreevisakh.github.io
 baseurl:          ''
 
 author:
-  name:           'Sreevisakh A'
-  url:            http://sreevisakh.com
+  name:           "Sreevisakh A"
+  url:            "http://sreevisakh.com"
 
 paginate:         5
 
@@ -26,4 +26,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/sreevisakh/
+  repo:           "https://github.com/sreevisakh/"

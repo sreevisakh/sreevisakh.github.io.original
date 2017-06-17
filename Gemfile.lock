@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jekyll/jekyll-sitemap.git
+  revision: d8b093a54bbe900e8aec4916ff7d7aa1df8ee186
+  specs:
+    jekyll-sitemap (1.1.1)
+      jekyll (~> 3.3)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -25,8 +32,6 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-sitemap (1.1.1)
-      jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -59,10 +64,10 @@ DEPENDENCIES
   amp-jekyll
   fastimage
   jekyll-paginate
-  jekyll-sitemap
+  jekyll-sitemap!
   nokogiri
   pygments.rb
   redcarpet
 
 BUNDLED WITH
-   1.11.2
+   1.13.6

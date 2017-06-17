@@ -1,13 +1,17 @@
 ---
-published: false
+layout: post
+title: "Simple Home Automation"
+date: "2017-06-14 00:31:41 +0530"
+category : 'automation'
 ---
 
-This DIY project to automate a light & fan using raspberry pi.
+
+This is a DIY project to automate a light & fan using raspberry pi.
 
 ## Things Required
 
 1. [Raspberry Pi Any Model will be fine (3B preferd for Wifi Access)](https://www.amazon.in/gp/product/B01CD5VC92/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01CD5VC92&linkCode=as2&tag=sreevisakh-21&linkId=f7c76ef2d3b97c9ed6f68c51c6271f24)
-	
+
 2. [220v - 5v Relay](https://www.amazon.in/gp/product/B01C2IG1GY/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01C2IG1GY&linkCode=as2&tag=sreevisakh-21&linkId=b96f8d4dc2f4d129047bb7b3d998ca6f")
 
 3. [Jumper Cables](https://www.amazon.in/gp/product/B01H5C3IIG/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01H5C3IIG&linkCode=as2&tag=sreevisakh-21&linkId=2e6475f0fd9c3b4cc79d524abbc2f522)
@@ -51,7 +55,7 @@ GPIO.setmode(GPIO.BCM)
 
 # here 23 is  GPIO23 port in the PI where I connected the input wire from relay
 # change it which ever port you used
-# since we are gonna send data to relay set it to output mode 
+# since we are gonna send data to relay set it to output mode
 GPIO.setup(23, GPIO.OUT)
 
 # GPIO port work in Binary mode. so set either 1 or 0 to control it.
@@ -78,6 +82,6 @@ After Cloing the repo and running Core.js you Iphone will detect you devices. an
 
 TBD
 
-## Learning when you will reach home 
+## Learning when you will reach home
 
 TBD
