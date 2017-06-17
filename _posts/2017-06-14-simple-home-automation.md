@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Simple Home Automation"
-date: "2017-06-14 00:31:41 +0530"
-category : 'automation'
+title: Simple Home Automation
+date: '2017-06-14 00:31:41 +0530'
+category: automation
+published: true
 ---
 
+![Simple Home Automaion | an-else-view](https://pbs.twimg.com/media/DChnJMtUIAAhTSs.jpg)
 
 This is a DIY project to automate a light & fan using raspberry pi.
 
@@ -22,18 +24,19 @@ This is a DIY project to automate a light & fan using raspberry pi.
 
 5. [Pi Case](https://www.amazon.in/gp/product/B01D4WM9JA/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01D4WM9JA&linkCode=as2&tag=sreevisakh-21&linkId=fee89d7bc86ac31d02891448b8aeeb73)
 
-## Connection to Light & Fan
+## Some Basics
 
-Any Electrical Device that work with AC will have two wires going into it. One of them is called Live & the other in neutral. To control the current flow to that a swith is connected in middle of the live so when the switch is off, Circuit is open and current won't flow through the device. We are going to do the same with the relay.  
+Any Electrical Device that work with AC will have two wires going into it. One of them is called live & the other in neutral. To control the current flow to a device, a switch is connected in middle of the live so when the switch is off, Circuit is open and current won't flow through the device. We are going to do the same with the relay.  
 
 ## Relay
-Relay will help in controlling 220v Live wire with help of 5v. Basically Our Pi works with 5v so it can manage 220v line with its 5v with the help of a Relay.
+Relay will help in controlling 220v Live wire with help of 5v. Basically Our Pi works with 5v so it can manage 220v line with the help of a Relay.
 
-Relay have two sides. One Side we will connect the Live wire. and the other Side we will connect the wires from the Pi.
+Relay have two sides. One Side we will connect the Live wire. and the other Side we will connect the Pi.
 
 ## Raspberry Pi
-Rapsberry Pi have pins on the side of it.  Each pin have a number to identify and each of them have a purpose. The pi side of relay has to be powered from the Pi. for this purpose they provide
-two pins VCC & GND, in Pi pin diagram you can see these pins. Connect them to the Pi,  Now to control the relay we need an input wire. Connect any of the GPIO pin to the third pin. Refer the [pin diagram](https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/) of your pi for this. Now we can control the Relay from PI
+Assuming you know the basics of pi and ready to be used.  it have pins on the side of it.  Each pin have a number to identify them and each of them have a purpose. The "pi side" of relay has to be powered from the Pi. for this purpose they provide two pins VCC & GND in the relay, in Pi's pin diagram you can see these pins. Connect them to the Pi,  Now to control the relay we need an input wire. Connect any of the GPIO pin to the third pin. Refer the [pin diagram](https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/) of your pi for this. Now we can control the Relay from PI
+
+- [Interactive pin diagram](https://pinout.xyz/pinout)
 
 These GPIO ports can be controlled by program running in the Pi. So we can send either HIGH or LOW into the INPUT pin of relay through these programs.
 
@@ -64,19 +67,21 @@ GPIO.output(port, 1)
 
 Remeber we have connected the VCC, GND, and another line to GPIO.  So the above code will control the GPIO port.
 
-When you write a 1 to the port. GPIO will enable the port and Relay will allow current to flow & your device will Turn on and If you write a 0 it will turn off the relay opening the circuit and your device will turn off.
+When you write a 1/GPIO.HIGH to the port. GPIO will enable the port and Relay will allow current to flow & your device will Turn on and If you write a 0 it will turn off the relay opening the circuit and your device will turn off.
 
 
 ## Controlling android
 
 You can expose the above functions with a server & apis. Which you can call from yu android device.  Task Automation Apps will help you send HTTP Rest calls to the PI to control them.
+more on that later.
 
 ## Controlling with Iphone
 
-Apple have homekit which can be used to controlling home accessories.  Apple devices will detect these devices automatically. To mak our device a homekit supported device.  We have to run a program inside pi and configure it according. HAP is used by apple for this communication.. You can see sample code [here](https://github.com/sreevisakh/HAP-NodeJS).
+Apple have [homekit](https://developer.apple.com/support/homekit-accessory-protocol/) which can be used to controlling home accessories.  Apple devices will detect these devices automatically. To make our device a homekit supported device,  We have to run a program inside pi and configure it accordingly. HAP is used by apple for this communication. You can see sample code [here](https://github.com/sreevisakh/HAP-NodeJS).
 
-After Cloing the repo and running Core.js you Iphone will detect you devices. and then you can control them with siri or through Control Center.
+After Cloning the repo and running Core.js your Iphone will detect your devices and then you can control them with siri or through Control Center.
 
+Try Saying Turn the light off or better Setup scenes inside and say "I'm Home" 
 
 ## Detetcing your presence in home.
 
