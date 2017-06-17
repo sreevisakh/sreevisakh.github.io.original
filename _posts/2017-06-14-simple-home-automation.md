@@ -10,6 +10,7 @@ published: true
 
 This is a DIY project to automate a light & fan using raspberry pi.
 
+
 ## Things Required
 
 1. [Raspberry Pi Any Model will be fine (3B preferd for Wifi Access)](https://www.amazon.in/gp/product/B01CD5VC92/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01CD5VC92&linkCode=as2&tag=sreevisakh-21&linkId=f7c76ef2d3b97c9ed6f68c51c6271f24)
@@ -82,6 +83,21 @@ Apple have [homekit](https://developer.apple.com/support/homekit-accessory-proto
 After Cloning the repo and running Core.js your Iphone will detect your devices and then you can control them with siri or through Control Center.
 
 Try Saying Turn the light off or better Setup scenes inside and say "I'm Home" 
+
+### Control Home With Siri
+
+![Control Home With Siri](https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/19274998_1538760829532707_2252397298579481457_n.jpg?oh=de953e83ac6c86858c6ffc572dab00b7&oe=59E3B97D)
+
+
+### Configure accessories in your Apple Devices
+
+![Add accesoories to your Iphone](https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/19146195_1538760846199372_1250337236337799610_n.jpg?oh=dcc34a0344157cee3d1d063119c45db5&oe=59DBEB5D)
+
+
+### Add scenes and control accessories together
+
+![Add scenes and control accessories together](https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/19113679_1538760842866039_8437549205794769270_n.jpg?oh=dc32274cabed3af0fcb955fcdba53154&oe=59D4AA55)
+
 
 ## Detetcing your presence in home.
 
