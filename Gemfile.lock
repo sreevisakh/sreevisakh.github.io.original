@@ -3,7 +3,7 @@ GIT
   revision: d8b093a54bbe900e8aec4916ff7d7aa1df8ee186
   specs:
     jekyll-sitemap (1.1.1)
-      jekyll (~> 3.3)
+      jekyll (~> 3.1.6)
 
 GEM
   remote: http://rubygems.org/
@@ -18,7 +18,7 @@ GEM
     fastimage (2.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.4.3)
+    jekyll (3.1.6)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -32,6 +32,8 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-seo-tag (2.0.0)
+      jekyll (~> 3.1)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -64,6 +66,7 @@ DEPENDENCIES
   amp-jekyll
   fastimage
   jekyll-paginate
+  jekyll-seo-tag
   jekyll-sitemap!
   nokogiri
   pygments.rb

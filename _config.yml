@@ -7,18 +7,45 @@ permalink:        pretty
 relative_permalinks: false
 
 # Gems
-gems:             [jekyll-paginate,jekyll-sitemap,nokogiri,fastimage]
+gems:             [jekyll-paginate,jekyll-sitemap,nokogiri,fastimage,jekyll-seo-tag]
 
 # Setup
-title:            an-else-view
-tagline:          Sreevisakh
-description:      Web developer's blog
+title:            "an-else-view"
+tagline:          "Sreevisakh"
+description:      "A Web developers usual blog"
+lang:             en
+
 url:              https://sreevisakh.github.io
 baseurl:          ''
 
 author:
   name:           "Sreevisakh A"
   url:            "http://sreevisakh.com"
+  twitter: _sreevisakh
+
+
+twitter:
+  username: _sreevisakh
+
+facebook:
+ app_id: 1538630872879036
+ username: sreevisakh
+
+seo:
+  type: NewsArticle
+
+logo: /public/logo.png
+
+social:
+  name: Sreevisakh A
+  links:
+    - https://twitter.com/_seevisakh
+    - https://www.facebook.com/sreevisakh
+    - https://www.linkedin.com/in/sreevisakh
+    - https://plus.google.com/+sreevisakh
+    - https://github.com/sreevisakh
+
+google_site_verification: mizsVxe9d4dqvMN1c6kT5C8x1F6Aw4srhKvg9r195N0
 
 paginate:         5
 
