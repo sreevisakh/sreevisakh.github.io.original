@@ -10,10 +10,6 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    amp-jekyll (1.0.1)
-      fastimage (>= 1.8.0)
-      jekyll (~> 3.0)
-      nokogiri (>= 1.6.0)
     colorator (1.1.0)
     fastimage (2.1.0)
     ffi (1.9.18)
@@ -32,8 +28,6 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-seo-tag (2.0.0)
-      jekyll (~> 3.1)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -63,10 +57,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  amp-jekyll
   fastimage
   jekyll-paginate
-  jekyll-seo-tag
   jekyll-sitemap!
   nokogiri
   pygments.rb

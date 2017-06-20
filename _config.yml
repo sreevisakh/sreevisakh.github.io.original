@@ -7,7 +7,7 @@ permalink:        pretty
 relative_permalinks: false
 
 # Gems
-gems:             [jekyll-paginate,jekyll-sitemap,nokogiri,fastimage,jekyll-seo-tag]
+gems:             [jekyll-paginate,jekyll-sitemap,nokogiri,fastimage]
 
 # Setup
 title:            "an-else-view"
@@ -30,9 +30,6 @@ twitter:
 facebook:
  app_id: 1538630872879036
  username: sreevisakh
-
-seo:
-  type: NewsArticle
 
 logo: /public/logo.png
 

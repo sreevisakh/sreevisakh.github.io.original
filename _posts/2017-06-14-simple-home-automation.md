@@ -4,6 +4,7 @@ title: Simple Home Automation
 date: '2017-06-14 00:31:41 +0530'
 category: automation
 published: true
+image: https://pbs.twimg.com/media/DChnJMtUIAAhTSs.jpg
 ---
 
 ![Simple Home Automaion | an-else-view](https://pbs.twimg.com/media/DChnJMtUIAAhTSs.jpg)
@@ -82,7 +83,7 @@ Apple have [homekit](https://developer.apple.com/support/homekit-accessory-proto
 
 After Cloning the repo and running Core.js your Iphone will detect your devices and then you can control them with siri or through Control Center.
 
-Try Saying Turn the light off or better Setup scenes inside and say "I'm Home" 
+Try Saying Turn the light off or better Setup scenes inside and say "I'm Home"
 
 ### Control Home With Siri
 
