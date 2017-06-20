@@ -454,7 +454,7 @@ a.sidebar-nav-item:hover {
         top: 0;
         left: 0;
         bottom: 0;
-        width: 11rem;
+        width: 17rem;
         text-align: left
     }
     .sidebar-sticky {
@@ -464,7 +464,7 @@ a.sidebar-nav-item:hover {
         left: 1rem
     }
     .content {
-        max-width: 35rem;
+        max-width: 45rem;
         margin-left: 20rem;
         margin-right: 2rem
     }
@@ -473,7 +473,7 @@ a.sidebar-nav-item:hover {
 @media (min-width:64em) {
     .content {
       max-width:100%;
-        margin-left: 12rem;
+        margin-left: 19rem;
         margin-right: 4rem
     }
 }

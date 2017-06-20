@@ -60,7 +60,6 @@
       enable_page_level_ads: true
     });
   </script>
-  {{page.image}}
   <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
@@ -94,4 +93,20 @@
       }
   }
   </script>
+  {% if page.category %}
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "{{site.url}}{{page.category}}",
+          "name": "{{page.categorys}}"
+        }
+      }]
+    }
+    </script>
+  {% endif %}
 </head>

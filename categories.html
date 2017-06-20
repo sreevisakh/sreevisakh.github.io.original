@@ -1,0 +1,15 @@
+---
+layout: page
+title: Categories
+---
+
+<ul>
+{% for category in site.categories %}
+  <li style="list-style:none">
+    <a href="{{site.url}}/{{category[0]}}">
+      {{category[0]}}
+    </a>
+  </li>
+{% endfor %}
+
+</ul>
